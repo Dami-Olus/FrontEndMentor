@@ -1,3 +1,54 @@
+* {
+  margin: 0;
+}
+
 .nav {
   display: flex;
+  margin-top: 40px;
+  margin-left: 165px;
+}
+
+.nav__options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.option {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.nav > button {
+}
+
+.mainbanner {
+  margin-top: 152px;
+  margin-left: 165px;
+  width: 546px;
+  height: 343px;
+}
+
+.main__text {
+  font-size: 72px;
+}
+
+.mainbanner > input {
+  margin-top: 21px;
+}
+
+.mainbanner > p {
+  margin-top: 16px;
+}
+
+.maininfo {
+  display: flex;
+}
+
+.maininfo > img {
+  margin-top: -212px;
+  margin-right: -140px;
+}
+
+.customers {
+  margin-top: 154px;
 }
