@@ -44,11 +44,54 @@
   display: flex;
 }
 
-.maininfo > img {
+.maininfo_img_circle {
   margin-top: -212px;
   margin-right: -140px;
 }
 
+.maininfo_img_phone {
+  position: absolute;
+  margin-right: 400.5px;
+  margin-left: 117px;
+}
+
+.image__circle {
+  background-image: url("./assets/shared/desktop/bg-pattern-circle.svg");
+  height: 780px;
+  width: 780px;
+  margin-right: -140px;
+  margin-left: 89px;
+  margin-top: -200px;
+}
+
+.image__phone {
+  background-image: url("./assets/home/desktop/illustration-phone-mockup.svg");
+  height: 600px;
+  width: 400px;
+  margin-top: 280px;
+  margin-left: 50px;
+}
+
 .customers {
   margin-top: 154px;
+  margin-bottom: 150px;
+}
+
+.implement {
+  margin-bottom: 332px;
+}
+
+.ui {
+  margin-bottom: 341px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 106px;
+}
+
+.services_option {
+  width: 350px;
+  height: 131px;
 }
